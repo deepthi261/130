@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a0bedc4-8a3b-4354-9290-d289ade85213" name="Default" comment="" />
-    <ignored path="HW3-challenges.iws" />
+    <list default="true" id="2ba1e4e0-c1bd-49e7-8462-d0e55933e545" name="Default" comment="" />
+    <ignored path="suferpage.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,39 +17,35 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="HW3-challenges" />
+    <favorites_list name="suferpage" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/11_expressions/main.go">
+      <file leaf-file-name="surfer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/surfer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8888888">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12_arguments/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7777777">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/13_projecteuler/main.go">
+        <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.048076924">
-              <caret line="1" column="129" selection-start-line="1" selection-start-column="129" selection-end-line="1" selection-end-column="129" />
+            <state vertical-scroll-proportion="0.45535713">
+              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/default">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -60,6 +56,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Go File" />
       </list>
     </option>
@@ -67,19 +64,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HelloWorld.go" />
-        <option value="$PROJECT_DIR$/Hello Myname/main.go" />
-        <option value="$PROJECT_DIR$/Hello by input_usr/main.go" />
-        <option value="$PROJECT_DIR$/input_numbers/main.go" />
-        <option value="$PROJECT_DIR$/print_evens/main.go" />
-        <option value="$PROJECT_DIR$/06_zzgame/main.go" />
-        <option value="$PROJECT_DIR$/08_half&amp;Even/main.go" />
-        <option value="$PROJECT_DIR$/07_natural_nums/main.go" />
-        <option value="$PROJECT_DIR$/09_half&amp;even_using_func/main.go" />
-        <option value="$PROJECT_DIR$/10_greatestnums/main.go" />
-        <option value="$PROJECT_DIR$/11_expressions/main.go" />
-        <option value="$PROJECT_DIR$/12_arguments/main.go" />
-        <option value="$PROJECT_DIR$/13_projecteuler/main.go" />
+        <option value="$PROJECT_DIR$/css/default" />
+        <option value="$PROJECT_DIR$/surfer.html" />
+        <option value="$PROJECT_DIR$/css/main.go" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -89,8 +77,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="74" />
+    <option name="x" value="20" />
+    <option name="y" value="61" />
     <option name="width" value="1260" />
     <option name="height" value="684" />
   </component>
@@ -124,31 +112,17 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HW3-challenges" />
+              <option name="myItemId" value="suferpage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HW3-challenges" />
+              <option name="myItemId" value="suferpage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HW3-challenges" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="13_projecteuler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HW3-challenges" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HW3-challenges" />
+              <option name="myItemId" value="suferpage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -158,43 +132,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="last_opened_file_path" value="/usr/local/go" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
   </component>
-  <component name="RunManager" selected="Go Application.Build main.go and run">
-    <configuration default="false" name="go run main.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="HW3-challenges" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/09_half&amp;even_using_func/main.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Build main.go and run (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="HW3-challenges" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/10_greatestnums/main.go" />
-      <kind value="FILE" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Build main.go and run (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="HW3-challenges" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/11_expressions/main.go" />
-      <kind value="FILE" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Build main.go and run (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="HW3-challenges" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/12_arguments/main.go" />
-      <kind value="FILE" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Build main.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="HW3-challenges" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/13_projecteuler/main.go" />
-      <kind value="FILE" />
+  <component name="RunManager" selected="JavaScript Debug.surfer.html">
+    <configuration default="false" name="surfer.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/suferpage/surfer.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -204,20 +149,20 @@
       <method />
     </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <module name="HW3-challenges" />
+      <module name="suferpage" />
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <kind value="FILE" />
       <method />
     </configuration>
     <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
-      <module name="HW3-challenges" />
+      <module name="suferpage" />
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <method />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
-      <module name="HW3-challenges" />
+      <module name="suferpage" />
       <working_directory value="$PROJECT_DIR$/" />
       <framework value="gotest" />
       <kind value="DIRECTORY" />
@@ -260,42 +205,34 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Application.Build main.go and run (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Go Application.Build main.go and run (3)" />
-      <item index="3" class="java.lang.String" itemvalue="Go Application.Build main.go and run (4)" />
-      <item index="4" class="java.lang.String" itemvalue="Go Application.Build main.go and run" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.surfer.html" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Application.Build main.go and run" />
-        <item index="1" class="java.lang.String" itemvalue="Go Application.Build main.go and run (4)" />
-        <item index="2" class="java.lang.String" itemvalue="Go Application.Build main.go and run (3)" />
-        <item index="3" class="java.lang.String" itemvalue="Go Application.Build main.go and run (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.surfer.html" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7a0bedc4-8a3b-4354-9290-d289ade85213" name="Default" comment="" />
-      <created>1454292317110</created>
+      <changelist id="2ba1e4e0-c1bd-49e7-8462-d0e55933e545" name="Default" comment="" />
+      <created>1454307884946</created>
       <option name="number" value="Default" />
-      <updated>1454292317110</updated>
+      <updated>1454307884946</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="74" width="1260" height="684" extended-state="0" />
+    <frame x="20" y="61" width="1260" height="684" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40325204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -314,7 +251,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
@@ -322,80 +259,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/06_zzgame/main.go">
+    <entry file="file://$PROJECT_DIR$/css/default">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7692308">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#26#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08_half&amp;Even/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6730769">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#31#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/07_natural_nums/main.go">
+    <entry file="file://$PROJECT_DIR$/surfer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#27#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/09_half&amp;even_using_func/main.go">
+    <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="e#13#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10_greatestnums/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72115386">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11_expressions/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8888888">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12_arguments/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7777777">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13_projecteuler/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048076924">
-          <caret line="1" column="129" selection-start-line="1" selection-start-column="129" selection-end-line="1" selection-end-column="129" />
+        <state vertical-scroll-proportion="0.45535713">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding />
         </state>
       </provider>

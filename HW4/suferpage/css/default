@@ -1,0 +1,45 @@
+body {
+	background: silver;
+	font-family: Tahoma;
+}
+
+div.content {
+	width: 600px;
+	margin: auto;
+	border: medium;
+	border-color: black;
+	border-style: solid;
+	background-color: green;
+	padding: 15px;
+}
+
+img {
+	margin: auto;
+	border: 2px;
+	border-style: dotted;
+	vertical-align: middle;
+	width: 60%;
+	display: block;
+	border-radius: 20%;
+	vertical-align: middle;
+	border-style: dotted;
+	border-color: red;
+}
+
+h1 {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.top_header {
+	color: #8080ff;
+}
+
+.small_header {
+	font-size: medium;
+	color: fuchsia;
+}
+
+p {
+	text-align: justify;
+}
