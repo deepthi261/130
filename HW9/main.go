@@ -1,31 +1,47 @@
+
 package main
 
 import (
 	"io"
+	"io/ioutil"
 	"net/http"
 	"os"
-	"log"
+	"path/filepath"
 )
 
 func main() {
-	http.HandleFunc("/", fileHandling)
-	http.ListenAndServe(":8080", nil)
-}
+	var value string
+	http.ListenAndServe(":8080", http.HandlerFunc(func(res http.ResponseWriter, req *http.Request) {
+		if req.Method == "POST" {
+			file, _, err := req.FormFile("my-file")
+			if err != nil {
+				http.Error(res, err.Error(), 500)
+				return
+			}
+			defer file.Close()
 
-func fileHandling (res http.ResponseWriter, req *http.Request) {
-	if req.Method == "POST" {
-		key := "text"
-		_, hdr, err := req.FormFile(key)
-		if err != nil {
-			log.Println("Error : ", err)
+			src := io.LimitReader(file, 400)
+
+			dst, err := os.Create(filepath.Join(".", "read.txt"))
+			if err != nil {
+				http.Error(res, err.Error(), 500)
+				return
+			}
+			defer dst.Close()
+
+			io.Copy(dst, src)
+
+			contents, err := ioutil.ReadFile("read.txt")
+			value = string(contents)
+
 		}
-		old,_ := os.Open(hdr.Filename)
-		io.Copy(res, old)
-	} else {
-		res.Header().Set("Content-Type", "text/html; charset=utf-8")
-		io.WriteString(res, `<form method="POST" enctype="multipart/form-data">
-		  <input type="file" name="text">
-		  <input type="submit">
-		</form>`)
-	}
+
+		res.Header().Set("Content-Type", "text/html")
+		io.WriteString(res, `
+      <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="my-file">
+        <input type="submit">
+      </form>
+      `+`<br/>`+value)
+	}))
 }
