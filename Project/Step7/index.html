@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    {{if .Valid}}
+        {{if .Name}}
+            Welcome: {{.Name}} your age is {{.Age}} years.
+            <form action="get">
+                <input type="button" name="submit" value="Logout"/>
+            </form>
+        {{else}}
+            <form action="/" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" />
+                <label for="age">Age:</label>
+                <input type="text" name="age" id="age" />
+                <input type="submit" name="submit" id="submit" value="Login"/>
+            </form>
+        {{end}}
+    {{else}}
+        Authentication At Stake !!
+        Cookie Tampered!!
+    {{end}}
+</body>
+</html>

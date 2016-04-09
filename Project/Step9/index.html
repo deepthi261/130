@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Logged out</title>
+</head>
+<body>
+    {{if .Valid}}
+        {{if .Name}}
+            Welcome: {{.Name}}
+            <form action="/user-form" method="post">
+                User Details:
+                <input type="text" name="uname" placeholder="user name"/>
+                <input type="text" name="uage" placeholder="user age"/>
+                <input type="submit" value="Upload User Details"/>
+            </form>
+            <a href="/logout">LOG OUT</a>
+        {{else if .Data.Name}}
+            Uploaded details:
+            {{.Data.Name}}
+            {{.Data.Age}}
+            <a href="/logout">LOG OUT</a>
+        {{else}}
+            <form action="/" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" />
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" />
+                <input type="submit" name="submit" id="submit" value="Login"/>
+            </form>
+        {{end}}
+    {{else}}
+        Authentication At Stake !!
+        Cookie Tampered!!
+    {{end}}
+</body>
+</html>
