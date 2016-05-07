@@ -22,7 +22,7 @@ func handler(res http.ResponseWriter, req *http.Request) {
 	storageLog.Errorf(ctx, "Error: ", err)
 	defer client.Close()
 
-	writer := client.Bucket("learning-csci130.appspot.com").Object("helloworld.txt").NewWriter(ctx)
+	writer := client.Bucket("goproject1-1299.appspot.com").Object("helloworld.txt").NewWriter(ctx)
 	writer.ACL = []storage.ACLRule{{
 		storage.AllUsers,
 		storage.RoleReader}}
@@ -34,7 +34,7 @@ func handler(res http.ResponseWriter, req *http.Request) {
 	writer.Close()
 
 	// Reading the file
-	rd, err := client.Bucket("learning-csci130.appspot.com").Object("helloworld.txt").NewReader(ctx)
+	rd, err := client.Bucket("goproject1-1299.appspot.com").Object("helloworld.txt").NewReader(ctx)
 	log.Println(err)
 	io.Copy(res, rd)
 	defer rd.Close()

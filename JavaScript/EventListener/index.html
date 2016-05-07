@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+</head>
+<body>
+	<div id="content"></div>
+</body>
+<script type="text/javascript">
+	var unorderedList = [ "element 1", "Go Lang", "Java", "Php" ];
+	var element = '';
+	// Creating the elements and adding it to element variable
+	for (i = 0; i < unorderedList.length; i++) {
+		element += '<p id="'+i+'">' + unorderedList[i] + '</p>';
+	}
+	// Setting the content
+	document.getElementById('content').innerHTML = element;
+	// Adding on click listener
+	for (i = 0; i < unorderedList.length; i++) {
+		document.getElementById(i).onclick = function(event) {
+			alert(event.target.innerHTML);
+		}
+	}
+</script>
+</html>

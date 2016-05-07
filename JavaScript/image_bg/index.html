@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"
+	style="background: url('https://upload.wikimedia.org/wikipedia/commons/b/be/Random_pyramids.jpg') no-repeat center center fixed;">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+</head>
+<body>
+	<div
+		style="position: fixed; top: 50%; left: 50%; font-size: 40px; color: white;"
+		id="content"></div>
+</body>
+<script type="text/javascript">
+	var content = document.getElementById('content')
+	var qoutes = [ "Life sucks", "Why am I doing this?", "Well ..." ];
+	var images = [
+			"https://upload.wikimedia.org/wikipedia/commons/b/be/Random_pyramids.jpg",
+			"https://upload.wikimedia.org/wikipedia/commons/e/e7/Winter-Tiger-Wild-Cat-Images.jpg" ];
+	var index = getRandomIndex(qoutes);
+	content.innerHTML = qoutes[index];
+	index = getRandomIndex(images);
+	var style = "background: url('%s') no-repeat center center fixed;".split(
+			'%s').join(images[index]);
+	document.documentElement.setAttribute('style', style);
+	window.setTimeout(function() {
+		location.reload();
+	}, 4000);
+	function getRandomIndex(array) {
+		return Math.floor(Math.random() * array.length);
+	}
+</script>
+</html>

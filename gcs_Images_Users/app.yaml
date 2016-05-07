@@ -1,5 +1,4 @@
-
-application: goproject1-1299
+application: deepthi-thotakura
 version: v1
 runtime: go
 api_version: go1
