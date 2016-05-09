@@ -1,0 +1,479 @@
+html {
+	font-size: 60%;
+	font-family: 'Roboto Slab', serif;
+}
+
+html, body, header, main, section, article, footer, div, a, ul, li, h1,
+	h2, h3, p {
+	/* simple reset - resets browser's default styling */
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	/* remove underline on hyperlinks */
+	text-decoration: none;
+}
+
+li {
+	/* remove bullets on lists */
+	list-style: none;
+}
+
+/* these elements will take up the whole page above the fold */
+html, body, #aboveTheFold {
+	height: 100%;
+}
+
+#aboveTheFold {
+	display: flex;
+	flex-direction: column;
+}
+
+#title {
+	flex-grow: 1;
+	background-image: url("../img/server.jpg");
+}
+
+header {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	width: 100%;
+	height: 6rem;
+	background-color: #333;
+	display: flex;
+	align-items: center;
+}
+
+#logo {
+	height: 100%;
+	flex-grow: 1;
+	color: Black;
+	font-size: 3rem;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#logo:hover {
+	color: #c1c1c1;
+}
+
+/* disable menu in header */
+/* on small devices, menu is displayed below the fold */
+/* nav desktop (nd) */
+.nd {
+	display: none;
+}
+
+#developers {
+	color:#333;
+	letter-spacing: 2px;
+	font-size: 1.5rem;
+	font-weight: 300;
+	background-color: #a7b123;
+	width: 100%;
+}
+
+#developers h1 {
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+#developers img {
+	border-radius: 50%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#item {
+	font-family: 'Roboto', sans-serif;
+	margin: 15px;
+	width: 200px;
+}
+
+#developers p {
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+}
+
+#items {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#img_container {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#take_action_container {
+	height: 200px;
+	background-color: #f5f5f5;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.text_header {
+	font-weight: normal;
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+	color: #333;
+	padding: 20px;
+}
+
+#take_action_container_button {
+	width: 20rem;
+	height: 5rem;
+	margin: 1.3rem 0;
+	background-color: #333;
+	border-radius: 5px;
+}
+
+#take_action_container_button a {
+	height: 100%;
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 300;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#take_action_container a:hover {
+	background-color: deepskyblue;
+}
+
+.content {
+	width: 120%;
+	height: 150%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.75rem;
+	background-color: #f5f5f5;
+}
+
+.content form {
+	width: inherit;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.content td {
+	padding: 5px;
+	width: 60%;
+}
+
+.content thead {
+	text-align: center;
+}
+
+.content th {
+	padding: 5px;
+	text-align: right;
+	width: 40%;
+}
+
+.content li {
+	margin: 30px;
+}
+
+.buttons_container {
+	display: flex;
+	flex-direction: row;
+}
+
+.button {
+	margin: 0px;
+	width: 10rem;
+	height: 5rem;
+	margin: 1.3rem;
+	background-color: #333;
+	border-radius: 5px;
+}
+
+.button a {
+	height: 100%;
+	font-size: 1.8rem;
+	color: #fff;
+	font-weight: 300;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button a:HOVER {
+	background-color: deepskyblue;
+}
+
+.content input {
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.75rem;
+	height: 3rem;
+	border: 1px solid #bdc7d8;
+	width: 300px;
+	padding: 8px 10px;
+}
+
+.erroMessage {
+	border: 1px solid;
+	padding:15px;
+	background-repeat: no-repeat;
+	color: #D8000C;
+	background-color: #FFBABA;
+}
+/*We need to remove this as nm is removed from login page need to show team mates!!*/
+.nm {
+	background: deepskyblue;
+}
+
+.nm li {
+	width: 100%;
+	height: 4.5rem;
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nm li a {
+	height: 100%;
+	color: #fff;
+	font-size: 1.75rem;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nm li:hover {
+	background: royalblue;
+}
+/*Remove till here!!*/
+footer {
+	height: 70px;
+	background-color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+}
+.navbar-default {
+	background: #333333;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	height: 6rem;
+	width: 100%;
+	cursor: pointer;
+}
+.navbar-default .navbar-brand {
+	color: #ffffff !important;
+	font-size: 3rem;
+	font-family: 'Roboto', sans-serif;
+	height: 6rem;
+	cursor: pointer;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background: deepskyblue;
+}
+.content h1 {
+  margin: -20px -20px 0;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#694551;
+  text-align: center;
+  border-bottom:1px solid #EDEDED;
+  border-radius: 3px 3px 0 0;
+  -webkit-box-shadow: 0 1px #f5f5f5;
+  -moz-box-shadow: 0 1px #f5f5f5;
+  box-shadow: 0 1px #f5f5f5;
+}
+.content a {
+    padding:0 10px;
+  height: 45px;
+  font-size: 12px;
+  font-weight: bold;
+  color:#FFFFFF;
+  text-shadow:0 1px #4D1124;
+  border-width: 1px;
+  border-style: solid;
+  border-color:#693647;
+  border-radius: 7px 7px 7px 7px;
+  outline: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  background-color: #7D0F33;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #AA1E4D), color-stop(100%, #7D0F33));
+  background-image: -webkit-linear-gradient(top, #AA1E4D, #7D0F33);
+  background-image:-moz-linear-gradient(center top , #AA1E4D, #7D0F33)
+  background-image: -ms-linear-gradient(top, #AA1E4D, #7D0F33);
+  background-image: -o-linear-gradient(top, #AA1E4D, #7D0F33);
+  background-image: linear-gradient(top, #AA1E4D, #7D0F33);
+  -webkit-box-shadow:0 1px #CD4170 inset, 0 1px 2px #93284C;
+  -moz-box-shadow:0 1px #CD4170 inset, 0 1px 2px #93284C;
+  box-shadow:0 1px #CD4170 inset, 0 1px 2px #93284C;
+}
+.content{
+  position: relative;
+  margin-top:20px;
+  padding: 20px 20px 20px;
+  background: #fff;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+input[type=text], input[type=password] {
+  margin: 5px;
+  padding: 0 10px;
+  height: 34px;
+  color: #404040;
+  background: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius:3px;
+  --webkit-border-radius: 5px;
+  outline:3px solid rgba(200, 105, 137, 0.09);
+  -moz-outline-radius:7px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  margin:10px 0;
+}
+input {
+  font-family:"Trebuchet MS",tahoma;
+  font-size: 14px;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+  border-color:#FFF7F9;
+  outline-color:rgba(254, 225, 235, 0.7);
+  outline-offset: 0;
+}
+
+input[type=submit] {
+  padding:0 10px;
+  height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+  color:#FFFFFF;
+  text-shadow:0 1px #4D1124;
+  border-width: 1px;
+  border-style: solid;
+  border-color:#693647;
+  border-radius: 7px 7px 7px 7px;
+  outline: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  background-color: #7D0F33;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #AA1E4D), color-stop(100%, #7D0F33));
+  background-image: -webkit-linear-gradient(top, #AA1E4D, #7D0F33);
+  background-image:-moz-linear-gradient(center top , #AA1E4D, #7D0F33)
+  background-image: -ms-linear-gradient(top, #AA1E4D, #7D0F33);
+  background-image: -o-linear-gradient(top, #AA1E4D, #7D0F33);
+  background-image: linear-gradient(top, #AA1E4D, #7D0F33);
+  -webkit-box-shadow:0 1px #CD4170 inset, 0 1px 2px #93284C;
+  -moz-box-shadow:0 1px #CD4170 inset, 0 1px 2px #93284C;
+  box-shadow:0 1px #CD4170 inset, 0 1px 2px #93284C;
+}
+input[type=submit]:active {
+  background: #7D0F33;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.test {
+  margin: -20px -20px 0;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color:#694551;
+  text-align: center;
+  border-bottom:1px solid #EDEDED;
+  border-radius: 3px 3px 0 0;
+  -webkit-box-shadow: 0 1px #f5f5f5;
+  -moz-box-shadow: 0 1px #f5f5f5;
+  box-shadow: 0 1px #f5f5f5;
+}
+.row {
+	text-align:left;
+	vertical-align: left;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	display: flex;
+}
+
+.flex-container {
+	width: inherit;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+}
+
+.flex-item {
+	margin: 20px;
+	align-self: center;
+}
+.uploadedFiles {
+	width: 250px;
+}
+.content1 {
+	height: auto !important;
+}
+.grid {
+	padding: 5%;
+}
+.grid-item {
+	width: 300px;
+}
+.grid .grid-item {
+	margin-bottom: 4%;
+}
+.txtFile {
+	width: 100%;
+}
+.image {
+	display: block;
+	margin: 0;
+	max-width: 100%;
+}
+.filename {
+	text-align: center;
+}

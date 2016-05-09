@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title> Flash</title>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300|Roboto:400,300' rel='stylesheet'>
+<link rel="stylesheet" href="../static/css/main2.css">
+<link rel="stylesheet" media="screen and (min-width: 600px)" href="../static/css/mq_600-plus.css">
+<link rel="stylesheet" media="screen and (min-width: 900px)" href="../static/css/mq_900-plus.css">
+<script type="text/javascript" src="../static/js/jquery.js"></script>
+<script type="text/javascript" src="../static/js/login.js"></script>
+<script type="text/javascript" src="../static/js/common.js"></script>
+</head>
+<body>
+<header>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%" id="logo">
+				<a xlink:href="#">
+					<circle cx="50" cy="50" r="40" fill="brown"/>
+					<text x="50" y="60" text-anchor="middle" fill="white">Flash</text>
+				</a>
+			</svg>
+			<ul class="nd">
+				<li><a href="SignUp.html">Sign Up</a></li>
+			</ul>
+</header>
+
+	<section class="content">
+		<form action="" id="signInForm" method="post">
+			
+			<label class ="test">Please Sign in </label>
+			<div class="row errorMessage" style="display:{{if .}}inline{{else}}none{{end}};">
+				<h1>Wrong username/password, please try again!</h1>
+			</div>
+			<div class="row">
+				
+				<label class ="test">Username</label>
+				<input type="text" name="username" id="username" placeholder="Your E-mail Address"/>
+			</div>
+			<div class="row">
+				<label  class ="test">Password</label>
+				<input type="password" name="password" id="password"/>
+			</div>
+			<div class="buttons_container">
+				<div class="button">
+					<a href="javascript:document.getElementById('signInForm').reset()">Reset</a>
+				</div>
+				<div class="button">
+					<a href="javascript:document.getElementById('signInForm').submit()" class="submit">Login</a>
+				</div>
+			</div>
+			
+              
+		</form>
+	</section>
+
+<ul class="nm">
+		<li><a href="SignUp.html">Sign Up</a></li>
+	</ul>
+
+	<footer>
+		<p>Copyright &copy; 2016 - Website created by Flash Team.</p>
+	</footer>
+
+</body>
+</html>
+
