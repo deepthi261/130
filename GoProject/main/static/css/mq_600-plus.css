@@ -1,0 +1,114 @@
+/* nm = nav mobile */
+.nm {
+    display: none;
+}
+
+/* HEADER */
+
+header {
+
+    /*
+    header is already set to "display: flex" in main.css
+    setting it here again just for clarity
+    */
+    /* make child elements of header arrange in a column */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 100%;
+    /*
+    Resetting the height for better spacing of the top menu.
+    */
+    height: 100%;
+}
+
+/* nd = nav desktop */
+.nd {
+    width: 100%;
+    height: 100%;
+
+    /* arrange li elements horizontally */
+    display: flex;
+    
+    /* font format */
+    color: white;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nd li {
+
+    /* grow vertically */
+    /* must be in container of some dimension */
+    height: 100%;
+    
+    width: 150px;
+}
+
+.nd li a {
+
+    /* grow vertically */
+    /* must be in container of some dimension */
+    height: 100%;
+    
+    width: inherit;
+
+    /* center the text wrapped by the anchor elements */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.nd li a:hover {
+    background-color: deepskyblue;
+}
+
+.text_header {
+	font-weight: 300;
+	font-size: 3.5rem;
+}
+
+.row {
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 500px;
+	justify-content: flex-end; 
+}
+
+.row label {
+	margin-right: 10px;
+}
+
+footer {
+    height: 140px;
+}
+
+.flex-container {
+    flex-direction: row;
+}
+.uploadedFiles {
+    width: 200px;
+    height: 200px;
+}
+.grid-item {
+    width: 90%;
+}
+.content1 {
+    flex-direction: column;
+}
+.giphy {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+.content1 form {
+    width: inherit;
+}

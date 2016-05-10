@@ -1,0 +1,52 @@
+header {
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+
+    /* resets "width: 100%" to nothing */
+    flex-basis: 0;
+
+    /* grow horizontally */
+    flex-grow: 1;
+}
+
+.nd {
+
+    /* resets "width: 100%" to nothing */
+    flex-basis: 0;
+
+    /* grow horizontally */
+    flex-grow: 2;
+
+    height: 100%;
+}
+
+
+#items {
+    flex-direction: row;
+}
+
+.flex-container {
+    flex-direction: row;
+}
+.uploadedFiles {
+    width: 400px;
+    height: 300px;
+}
+.flex-item {
+    width: 30%;
+}
+.grid-item {
+    width: 300px;
+}
+.giphy {
+    margin: 40px 40px 0 0;
+    width: 25%;
+}
+.content1 {
+    flex-direction: row;
+}

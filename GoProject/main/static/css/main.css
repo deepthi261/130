@@ -1,0 +1,357 @@
+html {
+	font-size: 60%;
+	font-family: 'Roboto Slab', serif;
+}
+
+html, body, header, main, section, article, footer, div, a, ul, li, h1,
+	h2, h3, p {
+	/* simple reset - resets browser's default styling */
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	/* remove underline on hyperlinks */
+	text-decoration: none;
+}
+
+li {
+	/* remove bullets on lists */
+	list-style: none;
+}
+
+/* these elements will take up the whole page above the fold */
+html, body, #aboveTheFold {
+	height: 100%;
+}
+
+#aboveTheFold {
+	display: flex;
+	flex-direction: column;
+}
+
+#title {
+	flex-grow: 1;
+	background-image: url("../img/server.jpg");
+}
+
+header {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	width: 100%;
+	height: 6rem;
+	background-color: #333;
+	display: flex;
+	align-items: center;
+}
+
+#logo {
+	height: 100%;
+	flex-grow: 1;
+	color: white;
+	font-size: 3rem;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#logo:hover {
+	color: #c0c0c0;
+}
+
+/* disable menu in header */
+/* on small devices, menu is displayed below the fold */
+/* nav desktop (nd) */
+.nd {
+	display: none;
+}
+
+#developers {
+	color:#333;
+	letter-spacing: 2px;
+	font-size: 1.5rem;
+	font-weight: 300;
+	background-color: #f5f5f5;
+	width: 100%;
+}
+
+#developers h1 {
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+#developers img {
+	border-radius: 50%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#item {
+	font-family: 'Roboto', sans-serif;
+	margin: 15px;
+	width: 200px;
+}
+
+#developers p {
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+}
+
+#items {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#img_container {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#take_action_container {
+	height: 200px;
+	background-color: #f5f5f5;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.text_header {
+	font-weight: normal;
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+	color: #333;
+	padding: 20px;
+}
+
+#take_action_container_button {
+	width: 20rem;
+	height: 5rem;
+	margin: 1.3rem 0;
+	background-color: #333;
+	border-radius: 5px;
+}
+
+#take_action_container_button a {
+	height: 100%;
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 300;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#take_action_container a:hover {
+	background-color: deepskyblue;
+}
+
+.content {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	background-color: #f5f5f5;
+	padding-bottom: 75px;
+}
+
+.content form {
+	width: inherit;
+	height: inherit;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.content li {
+	margin: 30px;
+}
+
+.buttons_container {
+	display: flex;
+	flex-direction: row !important;
+	justify-content: space-around;
+}
+
+.button {
+	margin: 0px;
+	width: 10rem;
+	height: 5rem;
+	margin: 1.3rem;
+	background-color: #333;
+	border-radius: 5px;
+}
+
+.button a {
+	height: 100%;
+	font-size: 1.8rem;
+	color: #fff;
+	font-weight: 300;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.button a:HOVER {
+	background-color: deepskyblue;
+}
+
+.content input {
+	border-radius: 5px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.75rem;
+	height: 3rem;
+	border: 1px solid #bdc7d8;
+	width: 300px;
+	padding: 8px 10px;
+}
+
+.errorMessage {
+	margin: 20px;
+	border: 1px solid;
+	padding:15px;
+	background-repeat: no-repeat;
+	font-size: 1.5rem;
+	color: #D8000C;
+	background-color: #FFBABA;
+	flex-direction: column !important;
+}
+/*We need to remove this as nm is removed from login page need to show team mates!!*/
+.nm {
+	background: deepskyblue;
+}
+
+.nm li {
+	width: 100%;
+	height: 4.5rem;
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nm li a {
+	height: 100%;
+	color: #fff;
+	font-size: 1.75rem;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nm li:hover {
+	background: royalblue;
+}
+/*Remove till here!!*/
+footer {
+	height: 70px;
+	background-color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+}
+.navbar-default {
+	background: #333333;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	height: 6rem;
+	width: 100%;
+	cursor: pointer;
+}
+.navbar-default .navbar-brand {
+	color: #ffffff !important;
+	font-size: 3rem;
+	font-family: 'Roboto', sans-serif;
+	height: 6rem;
+	cursor: pointer;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	background: deepskyblue;
+}
+
+.row {
+	text-align:center;
+	vertical-align: middle;
+	margin: 15px;
+	display: flex;
+	flex-direction: column;
+	display: flex;
+}
+
+.flex-container {
+	width: inherit;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+}
+
+.flex-item {
+	margin: 20px;
+	align-self: center;
+}
+.uploadedFiles {
+	width: 250px;
+}
+.content1 {
+	height: auto !important;
+}
+.grid {
+	padding: 5%;
+}
+.grid-item {
+	width: 300px;
+}
+.grid .grid-item {
+	margin-bottom: 4%;
+}
+.txtFile {
+	width: 100%;
+}
+.image {
+	display: block;
+	margin: 0;
+	max-width: 100%;
+}
+.filename {
+	text-align: center;
+}
+.content1 {
+	flex-direction: column;
+}
+.giphyImage {
+	width: 100%;
+	height: inherit;
+}
+.giphy {
+	width: 70%;
+	margin: auto;
+	margin-top: 40px;
+}
