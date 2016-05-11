@@ -1,8 +1,9 @@
-application: deepthi-thotakura
-version: 1
+application: goproject-1308
+version: v1
 runtime: go
 api_version: go1
 
 handlers:
+
 - url: /.*
   script: _go_app
